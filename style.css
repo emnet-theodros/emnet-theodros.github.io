@@ -176,16 +176,118 @@ footer {
   line-height: 1.5;
   margin-bottom: 0;
 }
-.about-section {
-  max-width: 680px;
-  margin: 30px auto 20px;
-  padding: 0 20px;
+.about-wrapper {
+  max-width: 720px;
+  margin: 40px auto 60px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.about-section p {
+.about-card {
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  border-left: 5px solid #ffa94d;
+}
+.about-card h3 {
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  margin-bottom: 12px;
+}
+.about-card p {
   font-size: 0.95rem;
   color: #555;
   line-height: 1.8;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+}
+.about-card p:last-child {
+  margin-bottom: 0;
+}
+.stream-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+.stream-link {
+  background: #fff8f0;
+  border: 2px solid #ffd6b0;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ff6b6b;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: 'Nunito', sans-serif;
+}
+.stream-link:hover {
+  background: #ffe8cc;
+  border-color: #ffa94d;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 2px solid #ffd6b0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.95rem;
+  color: #333;
+  background: white;
+  resize: vertical;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #ffa94d;
+}
+.form-group button {
+  align-self: flex-start;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #ffa94d;
+}
+#form-thanks {
+  display: none;
+  color: #ff6b6b;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.hero-img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 .contact-form {
   max-width: 680px;
