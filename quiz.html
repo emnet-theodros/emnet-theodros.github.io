@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime Quiz – AnimeStart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>AnimeStart</h1>
+    <p>Your beginner-friendly guide to the world of anime</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="beginners-guide.html">Beginner's Guide</a>
+    <a href="what-to-watch.html">What to Watch Next</a>
+    <a href="browse-by-genre.html">Browse by Genre</a>
+    <a href="seasonal-picks.html">Seasonal Picks</a>
+    <a href="about.html">About & Contact</a>
+  </nav>
+
+  <div class="page-title">
+    <h2>Which Anime Are You? 🎌</h2>
+    <p>Answer 6 questions and find out which anime matches your personality!</p>
+  </div>
+
+  <div class="quiz-wrapper">
+    <div class="quiz-card">
+
+      <!-- Quiz -->
+      <div id="quiz-section">
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-fill" id="progress-bar"></div>
+        </div>
+
+        <p class="question-count" id="question-count"></p>
+        <p class="question-text" id="question-text"></p>
+        <div class="options" id="options"></div>
+
+        <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+
+      <!-- Result -->
+      <div class="result-card" id="result-section">
+        <div class="result-emoji" id="result-emoji"></div>
+        <div class="result-title" id="result-title"></div>
+        <p class="result-desc" id="result-desc"></p>
+        <div class="result-watch" id="result-watch"></div>
+        <button class="restart-btn" onclick="restartQuiz()">Take it again 🔄</button>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 AnimeStart | Created by Emnet Theodros
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
