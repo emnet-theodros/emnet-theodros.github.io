@@ -12,7 +12,7 @@ Anime has grown really popular, but most existing sites like MyAnimeList and Ani
 Home — Main landing page with featured recommendations and site navigation  
 Beginner's Guide — Curated list of starter anime broken down by genre with watch links  
 What to Watch Next — Pick a show you already liked and get personalized suggestions  
-Browse by Genre — Full catalog of anime organized by genre — action, thriller, sports, comedy, fantasy, and romance  
+Browse by Genre — Full catalog of anime organized by genre (action, thriller, sports, comedy, fantasy, and romance)   
 Seasonal Picks — Updated each season with the best new and currently airing anime  
 About & Contact — Info about the site, streaming platform links, and a contact form  
 Anime Quiz — A 6-question personality quiz that matches you to an anime based on your answers
