@@ -6,7 +6,7 @@ A beginner-friendly anime recommendation website built for CMSCI 256 (Web Design
 [emnet-theodros.github.io](https://emnet-theodros.github.io)
 
 ## About the Project
-Anime has grown really popular, but most existing sites like MyAnimeList and Anime News Network are aimed at people who already know a lot about anime. AnimeStart fixes that by being simple, welcoming, and easy to understand for anyone — whether you have never seen a single episode or you are looking for something new to watch.
+Anime has grown really popular, but most existing sites like MyAnimeList and Anime News Network are aimed at people who already know a lot about anime. AnimeStart fixes that by being simple, welcoming, and easy to understand for anyone, even if you have never seen a single episode or are looking for something new to watch.
 
 ## Pages
 Home — Main landing page with featured recommendations and site navigation  
