@@ -407,3 +407,36 @@ footer {
 .result-watch a:hover { background: #ffa94d; }
 .restart-btn { background: transparent; border: 2px solid #ffa94d; color: #ffa94d; padding: 10px 28px; border-radius: 20px; font-family: 'Nunito', sans-serif; font-size: 1rem; font-weight: 700; cursor: pointer; }
 .restart-btn:hover { background: #ffa94d; color: white; }
+
+.about-section {
+  max-width: 680px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about-section p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.links-section {
+  max-width: 680px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+}
+
+.links-section h3 {
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  margin-bottom: 14px;
+}
+
+.links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
