@@ -9,8 +9,7 @@ A beginner-friendly anime recommendation website built for CMSCI 256 (Web Design
 Anime has grown really popular, but most existing sites like MyAnimeList and Anime News Network are aimed at people who already know a lot about anime. AnimeStart fixes that by being simple, welcoming, and easy to understand for anyone — whether you have never seen a single episode or you are looking for something new to watch.
 
 ## Pages
-| Page  Description
-|
+| Page  Description|
 | Home | Main landing page with featured recommendations and site navigation |
 | Beginner's Guide | Curated list of starter anime broken down by genre with watch links |
 | What to Watch Next | Pick a show you already liked and get personalized suggestions |
